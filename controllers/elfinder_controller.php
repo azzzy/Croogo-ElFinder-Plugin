@@ -68,7 +68,7 @@ class ElfinderController extends AppController {
 		if(isset($this->params['named']['layout']) && $this->params['named']['layout'] == 'plain'){
 			$this->layout = 'empty';
 		}
-		if($this->RequestHandler->isAjax()) {
+		if($this->RequestHandler->isAjax() || $this->RequestHandler->isPost()) {
 			$this->layout = 'json';
 			$fm = new elFinder($this->options); 
 			$fm->run();
