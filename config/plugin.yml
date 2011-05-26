@@ -1,0 +1,11 @@
+name: Elfinder
+description: Plugin for replacing the default file manager with the ElFinder AJAX filemanager from <a href="http://elrte.org/elfinder" target="_blank">http://elrte.org/elfinder</a>
+
+author: Daniel Alexandrov
+authorEmail: daniel@innovity.nl
+authorUrl: http://innovity.nl
+
+dependencies:
+  plugins:
+    - acl
+    - extensions
