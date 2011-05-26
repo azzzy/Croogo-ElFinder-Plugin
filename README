@@ -1,0 +1,5 @@
+Create subdirectory named "elfinder" inside Croogo's app/plugins/ directory and clone the content of the repository there.
+Enable the plugin from Extensions->Plugins in the Croogo admin menu.
+It replaces the default Croogo file manager under Media->File Manager. This behaviour can easily be changed in the config (config/elfinder_routes.php).
+
+I didnt created the file manager itslef, all credits to the guys at http://elrte.org/elfinder
